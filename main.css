@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Handlee&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+#fake{
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.col, .col-1, .col-10,
+.col-11, .col-12, .col-2,
+.col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9, .col-auto,
+.col-lg, .col-lg-1, .col-lg-10,
+.col-lg-11, .col-lg-12, .col-lg-2,
+.col-lg-3, .col-lg-4, .col-lg-5,
+.col-lg-6, .col-lg-7, .col-lg-8,
+.col-lg-9, .col-lg-auto, .col-md,
+.col-md-1, .col-md-10, .col-md-11,
+.col-md-12, .col-md-2, .col-md-3,
+.col-md-4, .col-md-5, .col-md-6,
+.col-md-7, .col-md-8, .col-md-9,
+.col-md-auto, .col-sm, .col-sm-1,
+.col-sm-10, .col-sm-11, .col-sm-12,
+.col-sm-2, .col-sm-3, .col-sm-4,
+.col-sm-5, .col-sm-6, .col-sm-7,
+.col-sm-8, .col-sm-9, .col-sm-auto,
+.col-xl, .col-xl-1, .col-xl-10,
+.col-xl-11, .col-xl-12,
+.col-xl-2, .col-xl-3,
+.col-xl-4, .col-xl-5,
+.col-xl-6, .col-xl-7,
+.col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    margin-right: auto;
+    padding: 10px;
+}
+.navbar a{
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Handlee';
+}
+
+.navbar a:hover{
+    color: gold;
+}
+
+
+.navbar-toggler-icon{
+    background-color: gray;
+    border-radius: 1pc;
+
+}
+
+.navbar-brand h1{
+    font-family: 'Kalam', cursive;
+}
+
+.LandingSection{
+    color: white;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    width: 100%;
+    padding-top: 130px;
+    height: fit-content;
+    
+}
+.LandingSection h1, h4{
+    font-family: 'Handlee', cursive;
+}
+
+.banner{
+    padding: 0;
+}
+.banner-text{
+    padding: 0;
+    width: fit-content;
+    margin-top: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.banner-text h1:hover{
+
+    color: gold;;
+}
+
+.banner-img{
+    padding: 0;
+}
+.banner-img img{ 
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-links {
+   padding: 0;
+   text-align: center;
+   margin: 0 auto;
+   
+   
+}
+.social-links ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+.social-links ul li{
+    padding: .5rem;
+    display: inline-block;
+}
+.social-links a{
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color:white;
+}
+@media screen and (min-width: 600px){
+    .fa-2x{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .fa-2x{
+        font-size: 1.4rem;
+    }
+}
+#insta a:hover{
+     color: #bc2a8d	;
+}
+#github a:hover{
+    color: #F4CBB2;
+}
+#facebook a:hover{
+    color: #4267B2;
+}
+#linkedin a:hover{
+    color: #0e76a8;
+}
+#twitter a:hover{
+    color: #00acee;
+    
+}
+
+.AboutSection{
+    color: white;
+    background-color: #0d0c0a;
+    padding: 5% 0%;
+    height: fit-content;
+}
+.AboutLayout{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    text-align: justify;    
+}
+
+.aboutText{
+    color: rgba(128, 128, 128, 0.329);
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 800px){
+    .aboutText h1{
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        text-align: center;
+        
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 800px){
+    .aboutText h1{
+        text-align: justify;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+}
+.aboutImg{
+   padding-top: 10%;
+}
+.aboutImg img{
+    
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.329);
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutInfo{
+    padding: 10%;
+    margin: auto;
+    text-align: justify;
+}
+
+.PortfolioSection{
+    color: white;
+    background-color: #0d0c0a;
+    padding: 0% 0%;
+    height: fit-content;
+}
+
+.portfolioHeading{
+    color: rgba(128, 128, 128, 0.329);
+    text-transform: uppercase;
+    
+    float: right;
+}
+
+@media screen and (min-width: 800px){
+    .portfolioHeading h1{
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        text-align: center;
+        font-size: 4rem;
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 800px){
+    .portfolioHeading h1{
+        text-align: justify;
+        padding: 0 20px;
+        
+    }
+}
+.PortfolioInfo{
+    padding: 10%;
+    padding-bottom: 0;
+    margin: auto;
+    text-align: justify;
+}
+#JIRA_loader {
+    display: block;
+    padding-top: 10%;
+    width: 10rem;
+  }
+.svgArea{
+    margin: auto;
+    padding: 0%;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.svgArea svg{
+    margin: 0 auto;
+}
+.skills{
+    text-align: center;
+}
+.skills ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills ul li{
+    display: inline-block;
+    padding: .5rem;
+}
+.test{
+    margin-left: -20px;
+}
+.test svg{
+    margin-bottom: 10px;
+}
+#cppIcon:hover{
+    color: #AD5C51;
+}
+
+#jsIcon:hover{
+    color: #f0db4f;
+}
+#pyIcon:hover{
+    color: #306998;
+}
+#htmlIcon:hover{
+        color: #f06529;
+}
+#cssIcon:hover{
+        color: #2965f1;
+}
+#bsIcon:hover{
+        color: #563d7c;
+}
+#reactIcon:hover{
+        color: #61DBFB;
+}
+.ProjectSection{
+    color: white;
+    background-color: #0d0c0a;
+    padding: 5% 5%;
+   
+    height: fit-content;
+}
+.projectHeading{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.329);
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 800px){
+    .projectHeading h1{
+        
+        text-align: center;
+        font-size: 7rem;
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 800px){
+    .projectHeading h1{
+        text-align: center;
+        padding: 0 20px;
+        
+    }
+}
+.Hobbies{
+    padding-top: 5%;
+}
+.Hobbies ul{
+    list-style-type: none;
+    padding-left: 0px;
+    
+}
+.Hobbies ul li{
+    display: inline-block;
+    padding: .5rem;
+}
+.card{
+    width: 70%;
+    margin: auto;
+    color: white;
+    background-color: #0d0c0a;
+    border-color: white;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+.card:hover .card-img-overlay{
+    opacity: 1;
+}
+.projectCards .col{
+    padding: 20px 0;
+}
+.card-img{
+    height: 100%;
+}
+
+.footerSection{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    height: fit-content;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.medals{
+    padding-top: 5rem;
+    color:#cd7f32;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 20px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:goldenrod; 
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
